@@ -1,0 +1,29 @@
+@import "react-slideshow-image/dist/styles.css";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.slide-container {
+  max-width: 880px; /* Ancho máximo deseado */
+  margin: 2% auto 0; /* Centro horizontal */
+  overflow: hidden; /* Ocultar el contenido que excede el ancho máximo */
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.wrapper {
+  background-color: #fffdf7;
+}

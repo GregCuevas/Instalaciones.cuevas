@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  flex-direction: column; /* Cambiar a columna en pantallas pequeñas */
+  align-items: center;
+  padding: 20px;
+}
+
+.left-div,
+.center-div,
+.right-div {
+  width: 100%; /* Ocupar todo el ancho en pantallas pequeñas */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px; /* Espacio entre los divs en pantallas pequeñas */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; /* Agrega la fuente que deseas usar */
+}
+
+.icon {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.center-div {
+  margin-top: 40px;
+  letter-spacing: 1px;
+}
+
+.center-div p {
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+
+.left-div {
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+
+.right-div {
+  margin-top: 45px;
+  letter-spacing: 1px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    flex-direction: row; /* Volver al diseño en fila en pantallas más grandes */
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .left-div,
+  .center-div,
+  .right-div {
+    margin-bottom: 0; /* Eliminar el espacio entre los divs en pantallas más grandes */
+  }
+
+  .left-div,
+  .right-div {
+    width: 30%; /* Tamaño fijo para los divs de los extremos */
+  }
+
+  .center-div {
+    width: 40%; /* Tamaño fijo para el div del centro */
+  }
+}
+.title {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+}

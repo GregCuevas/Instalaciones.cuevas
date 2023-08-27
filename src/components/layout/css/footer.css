@@ -1,0 +1,104 @@
+.pie-pagina {
+  width: 100%;
+  background-color: #001d3d;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+.pie-pagina .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img {
+  width: 300px;
+}
+
+.pie-pagina .grupo-1 .box h2 {
+  color: #fff;
+  margin-bottom: 22px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+.pie-pagina .grupo-1 .box p {
+  color: #efefef;
+  margin-bottom: -15px;
+  font-size: 14px;
+}
+.ctn {
+  margin-top: 10px;
+}
+.red-social {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  margin-top: -1px;
+}
+
+.red-social a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 10px;
+  transition: all 300ms ease;
+}
+
+.red-social a span {
+  margin-left: 10px;
+}
+
+/* Agregamos un margen a la derecha para separar los íconos de los spans */
+.red-social a .Fa,
+.red-social a .Ins,
+.red-social a .Whats,
+.red-social a .dm,
+.red-social a .tm {
+  margin-right: 10px;
+}
+
+.pie-pagina .grupo-2 {
+  background-color: #001233;
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.pie-pagina .grupo-2 small {
+  font-size: 15px;
+}
+@media screen and (max-width: 800px) {
+  .pie-pagina .grupo-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
+}
+.Fa:hover {
+  color: #4267b2;
+}
+.Ins:hover {
+  color: #c13584;
+}
+.Whats:hover {
+  color: #25d366;
+}
+.dm:hover {
+  color: #fff;
+}
+.caledar {
+  color: #fff;
+}
